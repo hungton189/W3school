@@ -1,0 +1,35 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.container 
+{
+ 	margin: 5px;
+ 	display: inline-block;
+ 	cursor: pointer; 
+}
+
+.bar1, .bar2, .bar3 
+{
+	height: 5px;
+ 	width: 35px;
+ 	background-color: #333;
+ 	margin-top:4px;
+ 	transition: .3s;
+}
+
+.change .bar1
+{
+	transform: rotate(-45deg) translate(-6px, 4px);
+}
+
+.change .bar2
+{
+	opacity: 0;	
+}
+
+.change .bar3
+{
+	transform: rotate(45deg) translate(-8px, -8px);
+}
