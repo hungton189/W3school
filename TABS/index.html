@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabs</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+	<h2>Tabs</h2>
+	<p>Click on the buttons inside the tabbed menu:</p>
+
+	<!-- tabs component -->
+	<div class="tab">
+		<button class="tablink" onclick="openCity(event, 'hanoi')">Hà Nội</button>
+		<button class="tablink" onclick="openCity(event, 'danang')">Đà Nẵng</button>
+		<button class="tablink" onclick="openCity(event, 'hcm')">TP Hồ Chí Minh</button>
+	</div>
+	<!-- End tabs component -->
+
+	<!-- content -->
+	<div id="hanoi" class="content">
+		<h3>Hà Nội</h3>
+		<p>Hà Nội là thủ đô nước CHXHCN Việt Nam.</p>
+	</div>
+
+	<div id="danang" class="content">
+		<h3>Đà Nẵng</h3>
+		<p>Đà Nẵng là thành phố của những chiếc cầu xinh đẹp bắc qua sông Hàn</p>
+	</div>
+
+	<div id="hcm" class="content">
+		<h3>TP Hồ Chí Minh</h3>
+		<p>TP Hồ Chí Minh là thành phố nhộn nhịp, tất bậc hàng đầu của Việt Nam và khu vực Đông Nam Á</p>
+	</div>
+	<!-- END content -->
+
+	<script type="text/javascript" src="./controller.js"></script>
+</body>
+</html>
